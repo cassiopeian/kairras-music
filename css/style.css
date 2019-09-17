@@ -1,0 +1,95 @@
+.homepage-one {
+  background-image: url('../images/grungebg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homepage-two {
+  background-image: url('../images/grungebg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background-color: rgba(4, 83, 135, .75);
+  border-bottom: 3px solid #b5c1c9;
+  padding: 10px 20px;
+  margin-bottom: 60px;
+}
+.petals-logo {
+  height: 20%;
+  width: 20%;
+}
+.logo a.kairras-logo {
+  align-self: center;
+}
+.kairras-logo {
+  opacity: .2;
+  /*margin-top: auto;
+  margin-bottom: auto;*/
+  height: 20%;
+  width: 20%;
+}
+ul {
+  display: flex;
+  font-family: 'Megrim', cursive;
+  font-size: 20px;
+  align-items: center;
+  list-style: none;
+}
+li a {
+  list-style-type: none;
+ /* text-decoration: none;
+  color: #fff;*/
+}
+.nav-links a:link, 
+.nav-links a:visited {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  }
+.nav-links a:hover {
+  color: #b5c1c9;
+  /*text-transform: uppercase;*/
+  font-family: 'Bubbler One', sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.next-video {
+  display: block;
+  margin: auto;
+  padding-bottom: 60px;
+  /*border: 8px solid #666;*/
+  border-radius: 5px;
+}
+.spotify-twitter-box {
+  display: flex;
+  height: 600px;
+  width: 1000px;
+  padding: 80px;
+  margin: auto;
+}
+.spotify-playlist { 
+  display: flex;
+ /* position: relative; */
+  /*padding-bottom: 28%; */
+  height: 100%; 
+  overflow: hidden; 
+  max-width: 100%; 
+  border-radius: 5px;
+} 
+.spotify-playlist iframe, .spotify-playlist object, .spotify-playlist embed { 
+  /*position: absolute; */
+  top: 0; 
+  left: 0; 
+  width: 800px; 
+  height: 550px; 
+}
+.twitter-timeline {
+  margin-left: 50px;
+  height: 550px;
+  width: 250px;
+}
