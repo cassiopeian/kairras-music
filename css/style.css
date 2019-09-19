@@ -18,9 +18,6 @@ header {
   height: 20%;
   width: 20%;
 }
-.logo a.kairras-logo {
-  align-self: center;
-}
 .kairras-logo {
   opacity: .2;
   /*margin-top: auto;
